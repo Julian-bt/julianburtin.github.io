@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+      <!--Navbar-->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="accueil.html">Accueil</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nourriture.html">Nourriture</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="sport.html">Sport</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="sommeil.html">Sommeil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  A Propos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="equipe.html">Equipe</a></li>
+                  <li><a class="dropdown-item" href="contact.html">contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <br>
+      <!-- Blog -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="offset-md-4 col-md-12">
+          <h2>Photos - cliquez pour les voir en grand</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-4 col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+          <div class="offset-md-4 col-md-2">
+            <a onclick="window.open(this.href); return false;" href="img/nourriture.jpg">
+              <img src="img/nourriture.jpg" width="220px" alt="Nourriture" style="max-width: 250px;">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <strong>Premier repas de la journée </strong> 
+            <p>Petit déjeuner à base de légumes et fruits frais.</p>
+          </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-4 col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+          <div class="offset-md-4 col-md-2">
+            <a onclick="window.open(this.href); return false;" href="img/sport.jpg">
+              <img src="img/sport.jpg" width="220px" alt="Nourriture" style="max-width: 250px;">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <strong>Petit footing du matin </strong> 
+            <p>7km en bord de mer avec un petit vent d'ouest.</p>
+          </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-4 col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+          <div class="offset-md-4 col-md-2">
+            <a onclick="window.open(this.href); return false;" href="img/sommeil.jpg">
+              <img src="img/sommeil.jpg" width="220px" alt="Nourriture" style="max-width: 250px;">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <strong>La journée qui commence </strong> 
+            <p>Réveil à 7h15 de bon pied et en route pour une nouvelle journée bien chargée.</p>
+          </div>
+      </div>
+      <div class="row">
+        <div class="offset-md-4 col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+          <div class="offset-md-4 col-md-2">
+            <a onclick="window.open(this.href); return false;" href="img/photos.jpg">
+              <img src="img/photos.jpg" width="220px" alt="Nourriture" style="max-width: 250px;">
+            </a>
+          </div>
+          <div class="col-md-6">
+            <strong>Shooting photos </strong> 
+            <p>Pause de midi en campagne pour capturer la nature avec mon appareil.</p>
+          </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
